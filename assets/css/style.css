@@ -280,3 +280,24 @@ h5 {
   border: 1px solid #ff5959;
 }
 /* newslatter area end */
+
+/* footer area start */
+#footer {
+  background: #0b0d17;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footer--content {
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.footer--content p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #d9dbe1;
+}
+/* footer area end */
