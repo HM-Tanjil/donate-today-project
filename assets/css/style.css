@@ -55,6 +55,15 @@ h2 {
   font-size: 45px;
   line-height: 54px;
 }
+
+h5 {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  color: #121212;
+}
 /* ------ basic setup -------- */
 
 /* ------ banner area start -------- */
@@ -101,9 +110,15 @@ h2 {
 }
 
 .donate--title {
+  text-align: center;
   padding-left: 300px;
   padding-right: 300px;
   padding-bottom: 40px;
+}
+
+.donate--title p {
+  padding-top: 20px;
+  color: #707070;
 }
 
 .select--amount {
@@ -182,3 +197,36 @@ h2 {
   border-bottom: 2px solid #ff5959;
 }
 /* ------ Donate today area end -------- */
+
+/* ------ Donate plan area start -------- */
+.donate--plan--content {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.donate--plan--box {
+  display: flex;
+  gap: 25px;
+  justify-content: center;
+}
+.plan--item {
+  max-width: 360px;
+  background: rgba(79, 157, 166, 0.1);
+  border-radius: 5px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.plan--item .plan--text h5 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.plan--item .plan--text p {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #707070;
+}
+/* ------ Donate plan area end -------- */
