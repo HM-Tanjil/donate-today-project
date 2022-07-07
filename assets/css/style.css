@@ -262,6 +262,7 @@ h5 {
 }
 .contribute--content .contribute--text .text--description {
   padding-top: 20px;
+  padding-right: 100px;
   padding-bottom: 20px;
 }
 .contribute--content .contribute--img img {
@@ -270,6 +271,22 @@ h5 {
   width: 500px;
 }
 /* contribute area end */
+
+/* gallery area start */
+.gallery--content {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.gallery--items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.gallery--items img {
+  width: 25%;
+  height: 280px;
+}
+/* gallery area end */
 
 /* newslatter area start */
 .newslatter--content {
